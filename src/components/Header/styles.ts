@@ -5,9 +5,11 @@ export const Container = styled.div`
   padding: 30px 0;
 
   header {
-    width: 1280px;
+    max-width: 1280px;
+    height: auto;
+    overflow: hidden;
     margin: 0 auto;
-    padding: 0 0 160px;
+    padding: 0 1.25rem 160px 1.25rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
